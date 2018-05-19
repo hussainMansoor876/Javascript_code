@@ -1,0 +1,10 @@
+var a = prompt("Enter Number");
+console.log(a);
+alert(a);
+document.write(a);
+var c = +prompt("Number of students","Students are:");
+var d = c + 1;
+alert(d);
+var c = prompt("Number of students","Students are:");
+var d = +c + 1;
+alert(d);

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <center>
+        <form>
+            <div class="man">
+                <input type="text" id="num1" readonly="readonly">
+                <br>
+                <div>
+                    <input type="button" value="7" id="7" onclick="cal('7')">
+                    <input type="button" value="8" id="8" onclick="cal('8')">
+                    <input type="button" value="9" id="9" onclick="cal('9')">
+                    <input type="button" value="/" id="div" onclick="operator('div')">
+                </div>
+                <div>
+                    <input type="button" value="4" id="4" onclick="cal('4')">
+                    <input type="button" value="5" id="5" onclick="cal('5')">
+                    <input type="button" value="6" id="6" onclick="cal('6')">
+                    <input type="button" value="*" id="mul" onclick="operator('mul')">
+                </div>
+                <div>
+                    <input type="button" value="1" id="1" onclick="cal('1')">
+                    <input type="button" value="2" id="2" onclick="cal('2')">
+                    <input type="button" value="3" id="3" onclick="cal('3')">
+                    <input type="button" value="-" id="sub" onclick="operator('sub')">
+                </div>
+                <div>
+                    <input type="button" value="." id="." class="last" onclick="cal('.')">
+                    <input type="button" value="0" id="0" class="last" onclick="cal('0')">
+                    <input type="button" value="=" class="last" onClick="answer('num1')">
+                    <input type="button" value="+" id="add" class="last" onclick="operator('add')">
+                </div>
+            </div>
+        </form>
+    </center>
+</body>
+<script src="app.js"></script>
+
+</html>

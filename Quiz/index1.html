@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz </title>
+
+</head>
+
+<body>
+
+    <!-- 1,       value is 2 -->
+    <div id="quizcontainer">
+        <h2 id="timer"></h2>
+        <h5 id="question"></h5>
+        <label>
+            <input type="radio" name="option" value="1">
+            <span id="option1"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="option" value="2">
+            <span id="option2"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="option" value="3">
+            <span id="option3"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="option" value="4">
+            <span id="option4"></span>
+        </label>
+        <br>
+        <button onclick="next()">Next Question</button>
+    </div>
+
+    <div id="resultcontainer" style="display: none">
+        <h1 id="score"> </h1>
+
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

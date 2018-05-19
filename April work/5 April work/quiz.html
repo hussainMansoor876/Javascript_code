@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="bootstrap code/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap code/bootstrap.min.css">
+    <script src="bootstrap code/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div id="quizContainer">
+        <h2 id="timer"></h2>
+        <h5 id="question"></h5>
+        <label>
+            <input type="radio" name="option" value='1'>
+            <span id="option1"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="option" value='2'>
+            <span id="option2"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="option" value='3'>
+            <span id="option3"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="option" value='4'>
+            <span id="option4"></span>
+        </label>
+        <br>
+        <button onclick="next()" class="btn btn-primary mansoor">Next Question</button>
+    </div>
+    <div id="resultContainer" style="display:none">
+        <h1 id="score"></h1>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

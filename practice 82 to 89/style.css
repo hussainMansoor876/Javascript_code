@@ -1,0 +1,17 @@
+.btn{ 
+    margin: 5px 87px;
+    padding : 5px 52px;
+    background-color: chartreuse;
+    border: 5px double blue;
+    border-radius: 10px;
+}
+.btn1{ 
+    margin: 5px;
+    padding : 5px;
+    background-color: chartreuse;
+    border: 5px double blue;
+    border-radius: 10px;
+}
+.btn1:focus{
+    background-color: cyan;
+}

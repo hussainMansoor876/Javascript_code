@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+.man{
+    border-style: double;
+    margin-top: 180px;
+    min-width: 200px;
+    max-width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input{
+    background-color: skyblue;
+    padding: 20px;
+    margin: 3px 2px 0px;;
+}
+.last{
+    background-color: skyblue;
+    padding: 20.2px;
+}
+#num1{
+    padding: 8px 27px;
+}
